@@ -1,44 +1,49 @@
-# Bank loans analysis (Python)
+## Bank loans analysis (Python)
 
 ## Project Overview
-- Se requiere saber que factores influyen en la entrega de un prestamo
-- Se necesita buscar alguna oportunidad de aumentar los activos del banco
-- Se encontro que aparte de los ingresos, el tamaño de la familia es un factor importante
-- Las librerias usadas fueron pandas, numpy, matplotlib.pyplot, seaborn y scipy
-- Puede acceder a la Jupiter Notebook en este enlance ENALCE
+- Need to know what factors influence the delivery of a loan.
+- Need to look for any opportunity to increase the bank's assets.
+- It was found that apart from income, family size is an important factor.
+- The libraries used were pandas, numpy, matplotlib.pyplot, seaborn and scipy.
+- You can access the Jupiter Notebook at this link
 
-## Objetivos
-Pregunta central:
+## Objectives
+Central question:
 
-**Cual es el factor mas importante para la entrega de un prestamo**
+**What is the most important factor for the delivery of a loan**.
 
-Otras preguntas:
-* Que relacion hay entre la educacion y los prestamos
-* Como es la distribucion de la poblacion de los clientes
-* Que tipos de cuentas y seguros poseen nuestros clientes
-* Que relacion hay entre los ingresos y los prestamos
-* Que relacion hay entre la hipoteca y los prestamos
+Other questions:
+* What is the relationship between education and lending?
+* What is the distribution of the client population?
+* What types of accounts and insurance do our clients have?
+* What is the relationship between income and loans?
+* What is the relationship between mortgage and loans?
 
-## Limpieza y preparacion de datos
-Despues de importar las librerias se prepararon los datos para el analisis
-- Elminacion de valores negativos and useless columns
-- Exploration of the correlation of data and outliers: Existe una gran relacion entre la edad y la experiencia
-IMAGEN DEL HEAT MAP
+## Data cleaning and preparation
+After importing the libraries we prepared the data for analysis.
+- Elimination of negative values and useless columns
+- Exploration of the correlation of data and outliers: There is a strong correlation between age and experience
 
-- Analisis de la distribucion de los datos: Se encontro una gran cantidad de valores anormales en los ingresos
-IMAGEN DE LOS HISTOGRAMAS Y BOXPLOT
+IMAGE OF THE HEAT MAP
+
+- Analysis of the distribution of the data: A large number of outliers were found in income
+
+IMAGE OF HISTOGRAMS AND BOXPLOTS
 
 ## EDA
-El analisis exploratorio de datos se hizo pensando en las preguntas objetivo. Se obtuvieron varias conclusiones las cuales seran presentadas a continuacion
+The exploratory data analysis was done with the target questions in mind. Several conclusions were obtained which will be presented below.
 
-- Distribucion de la educacion de los clientes: La mayoria de los clientes no son graduados pero parece que la educacion no tiene una relacion directa con los prestamos
-IMAGEN
-- Analisis del tipo de cuenta de los clientes: La gran mayoria de los clientes no cuentan con una cuenta de seguridad ni de credito, podria generar algunos activos extra si encontramos la manera de insentivarlos a buscar uno
+- Distribution of client education: The majority of clients are not graduates but it appears that education does not have a direct relationship with lending.
 
-- Prestamos en relacion con otros factores: Parece ser que el factor mas importante para un prestamo son los ingresos, esto no es ninguna sorpresa. Otro factor realmente inportante es la cantidad de familiares en la familia
+IMAGE
 
-## Conclusiones
-- Los valores que mas influyen son los ingresos y el tamaño de la familia
-- Los valores que menos influyen es la edad y experiencia 
-- Es recomendable incentivar a los clientes a crear una cuenta de credito y un seguro
-- Puede acceder al codigo en este enlace ENLACE
+- Analysis of client account type: The vast majority of clients do not have a security or credit account, could generate some extra assets if we find a way to encourage them to seek one.
+
+- Lending in relation to other factors: It seems that the most important factor for a loan is income, no surprise there. Another really important factor is the number of relatives in the family.
+
+## Conclusions
+- The most influential values are income and family size.
+- The least influential values are age and experience. 
+- It is advisable to encourage customers to create a credit account and insurance.
+- You can access the code in this link
+
