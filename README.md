@@ -24,22 +24,30 @@ After importing the libraries we prepared the data for analysis.
 - Elimination of negative values and useless columns
 - Exploration of the correlation of data and outliers: There is a strong correlation between age and experience
 
-IMAGE OF THE HEAT MAP
+![Heat map of data distribution](Images/Correlation_heatmap.png)
 
 - Analysis of the distribution of the data: A large number of outliers were found in income
 
-IMAGE OF HISTOGRAMS AND BOXPLOTS
+![Outliers](Images/Boxplot_outliers.png)
+
+![Histogram](Images/Data distribution.png)
 
 ## EDA
 The exploratory data analysis was done with the target questions in mind. Several conclusions were obtained which will be presented below.
 
 - Distribution of client education: The most of clients are undergraduates but it appears that education does not have a direct relationship with personal loan.
 
-IMAGE
+![Pie Chart: Education Level](Images/Pie_chart_Education.png)
+
+![Personal loan and education](Images/Boxplot_personal_loan.png)
 
 - Analysis of client account type: The vast majority of clients do not have a security or credit account. It could generate some extra assets for the bank if we find a way to encourage them to have one.
 
+![Pie chart, security and credit](Images/Pie_chart_Account_type.png)
+
 - Personal loan in relation to other factors: It seems that the most important factor for a loan is income, no surprise there. Another really important factor is the number of relatives in the family.
+
+![Personal Loan and Income](Images/Income_personal_loan.png)
 
 ## Conclusions
 - The most influential values are income and family size.
