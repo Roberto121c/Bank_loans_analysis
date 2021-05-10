@@ -5,7 +5,7 @@
 - We also need to look for any opportunity to increase the bank's assets.
 - It was found that apart from income, family size is an important factor.
 - The libraries used were pandas, numpy, matplotlib, seaborn and scipy.
-- You can access the Jupiter Notebook at this link
+- You can access the Jupiter Notebook at this **[LINK](https://github.com/Roberto121c/Bank_loans_analysis/blob/main/Code/Finance_data_analysis.ipynb)**
 
 ## Objectives
 Central question:
@@ -53,5 +53,5 @@ The exploratory data analysis was done with the target questions in mind. Severa
 - The most influential values are income and family size.
 - The least influential values are age and experience. 
 - It is advisable to encourage customers to create a credit account and security.
-- You can access the code in this link
+- You can access the code in this **[LINK](https://github.com/Roberto121c/Bank_loans_analysis/blob/main/Code/Finance_data_analysis.ipynb)**
 
